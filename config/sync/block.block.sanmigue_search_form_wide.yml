@@ -1,0 +1,23 @@
+uuid: 38fd05b3-ce20-4cf7-a8cd-0cb6e880db15
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - sanmigue
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: sanmigue_search_form_wide
+theme: sanmigue
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

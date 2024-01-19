@@ -1,0 +1,22 @@
+uuid: 44ef169a-3e2f-4e62-b37c-cb23fe464c96
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sanmigue
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: sanmigue_secondary_local_tasks
+theme: sanmigue
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

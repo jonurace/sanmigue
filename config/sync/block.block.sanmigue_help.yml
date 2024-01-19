@@ -1,0 +1,22 @@
+uuid: 8ac14d90-0d16-4359-8c0e-bd92012a2935
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sanmigue
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: sanmigue_help
+theme: sanmigue
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

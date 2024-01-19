@@ -1,0 +1,22 @@
+uuid: a0912e6a-5c0b-48f5-9c10-d117dad7afc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sanmigue
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: sanmigue_breadcrumbs
+theme: sanmigue
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

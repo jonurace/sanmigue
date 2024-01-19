@@ -1,0 +1,22 @@
+uuid: cc873173-726a-43eb-8f53-4f20eba418db
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sanmigue
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: sanmigue_content
+theme: sanmigue
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

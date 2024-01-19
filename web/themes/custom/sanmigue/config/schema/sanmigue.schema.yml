@@ -1,0 +1,8 @@
+# Schema for the configuration files of the sanmigue theme.
+sanmigue.settings:
+  type: theme_settings
+  label: 'sanmigue settings'
+  mapping:
+    example:
+      type: string
+      label: Example

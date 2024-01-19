@@ -1,0 +1,23 @@
+uuid: b4a1c6ff-aa9d-46ff-93ef-a88d4cdd363d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - sanmigue
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: sanmigue_syndicate
+theme: sanmigue
+region: header
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }
