@@ -157,19 +157,19 @@
         </div>
     </section>
     {% if page.breadcrumb %}
-    <section id="breadcrumb">
-        {{ page.breadcrumb }}
-    </section>
+        <section id="breadcrumb">
+            {{ page.breadcrumb }}
+        </section>
     {% endif %}
     {% if page.help %}
-    <section id="help">
-    {{ page.help }}
-    </section>
+        <section id="help">
+            {{ page.help }}
+        </section>
     {% endif %}
     {% if page.content %}
-    <section id="content">
+        <section id="content">
 
-    </section>
+        </section>
     {% endif %}
     <section id="domos" class="section-base section-color">
         <div class="container">
@@ -194,9 +194,9 @@
                                 única. Sumérgete en la naturaleza desde la comodidad de tu propio espacio privado y
                                 disfruta de una experiencia inolvidable en San Migue Glamping.
                             </p>
-                            <div class="bottom-info">
-                                Más información
-                            </div>
+                            <!--   <div class="bottom-info">
+                                   Más información
+                               </div> -->
                         </div>
                     </div>
                 </li>
@@ -220,9 +220,9 @@
                                 Glamping, donde la comodidad y la conexión con la naturaleza se unen para crear
                                 recuerdos inolvidables.
                             </p>
-                            <div class="bottom-info">
-                                Más información
-                            </div>
+                            <!--   <div class="bottom-info">
+                                   Más información
+                               </div> -->
                         </div>
                     </div>
                 </li>
@@ -245,15 +245,15 @@
                                 para una escapada íntima y acogedora. Sumérgete en la belleza natural de San Migue
                                 Glamping mientras disfrutas de todas las comodidades que ofrece este encantador domo.
                             </p>
-                            <div class="bottom-info">
-                                Más información
-                            </div>
+                            <!-- <div class="bottom-info">
+                                 Más información
+                             </div> -->
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="cnt-box cnt-box-info boxed text-uppercase" data-href="treks-single.html">
-                        <div class="extra-field">Desde $20KK</div>
+                        <div class="extra-field">Desde $20K</div>
                         <a href="#" class="img-box"><img
                                     src="{{ base_path ~ directory }}/images/carpa.png"
                                     alt=""/></a>
@@ -270,9 +270,36 @@
                                 acampar y servicios modernos, nuestro camping es el lugar perfecto para conectar con la
                                 naturaleza y crear recuerdos inolvidables en San Migue Glamping.
                             </p>
-                            <div class="bottom-info">
-                                Más información
+                            <br>
+                            <!--  <div class="bottom-info">
+                                  Más información
+                              </div> -->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cnt-box cnt-box-info boxed text-uppercase" data-href="treks-single.html">
+                        <div class="extra-field">Desde $55K</div>
+                        <a href="#" class="img-box"><img
+                                    src="{{ base_path ~ directory }}/images/jacuzzi.png"
+                                    alt=""/></a>
+                        <div class="caption">
+                            <h2>Jacuzzi</h2>
+                            <div class="cnt-info">
+                                <div><span>Personas</span><span> max 4 </span></div>
+                                <div><span>Cama</span><span> - </span></div>
+                                <div><span>Baño privado</span><span>Si</span></div>
                             </div>
+                            <p>
+                                Para una experiencia aún más relajante, ofrecemos a nuestros huéspedes el acceso
+                                a un jacuzzi exclusivo. Disfrute de un baño revitalizante mientras contempla las
+                                impresionantes vistas de nuestro entorno. Nuestro jacuzzi está disponible para
+                                el uso de nuestros clientes durante su
+                                estancia en San Migue Glamping.
+                            </p>
+                            <!-- <div class="bottom-info">
+                                Más información
+                            </div> -->
                         </div>
                     </div>
                 </li>
@@ -405,7 +432,7 @@
     </section>
     <section id="ubicacion" class="section-base section-color section-google-map">
         <div class="container">
-            <div class="google-map" data-marker="{{ base_path ~ directory }}/media/marker.png" >
+            <div class="google-map" data-marker="{{ base_path ~ directory }}/media/marker.png">
                 <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
                         src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJFdmijd35P44RapT1UpoFuAI&key=AIzaSyChv30_oQ3OkwtYlvRB7_QKwRsjjzsoAKk"></iframe>
             </div>
@@ -446,7 +473,8 @@
         </div>
     </div>
     <div id="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=573237592722&text=Hola%20San%20migue%2C%20queremos%20reservar%20!!%F0%9F%8F%94%EF%B8%8F" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=573237592722&text=Hola%20San%20migue%2C%20queremos%20reservar%20!!%F0%9F%8F%94%EF%B8%8F"
+           target="_blank">
             <i class="fa-brands fa-square-whatsapp fa-shake fa-4x"></i>
         </a>
     </div>

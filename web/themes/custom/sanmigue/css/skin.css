@@ -19,20 +19,20 @@ COLORS
 }
 
 body, header h2, h1, h2, h3, h4, h5, h6, .input-text, .input-select, .input-textarea, .icon-list span, .icon-list span a, .social-links a i, .glide__arrow, .search-bar input[type=submit], .menu-inner li > a, .accordion-list > li > a, .cnt-box-blog-side .icon-list a, .cnt-box-blog-top .icon-list a, .list-nav a, .media-box-down .caption h2, .media-box-down .caption p {
-    color: #13304a;
+    color: #252422;
 }
 
 div.cnt-box-info .cnt-info, footer, .cnt-box-testimonials-bubble > p, [class*=box-lightbox].light, .datepicker-panel > ul > li, .datepicker-panel > ul[data-view="week"] > li, .datepicker-panel > ul[data-view="week"] > li:hover, .datepicker-top-left, .datepicker-top-right, .datepicker-panel > ul > li.disabled, .datepicker-panel > ul > li.disabled:hover, .cnt-box-blog-side .blog-date span:last-child, .cnt-box-blog-top .blog-date span:last-child, .section-home-alpins + section:before, .scroll-menu .shop-menu-cnt .cart-count {
-    background-color: #13304a;
+    background-color: #252422;
 }
 
 .cnt-box-testimonials-bubble > p:after {
-    border-right-color: #13304a;
+    border-right-color: #252422;
 }
 
 .tab-nav li.active a, .tab-nav li:hover a {
-    background-color: #13304a;
-    border-color: #13304a;
+    background-color: #252422;
+    border-color: #252422;
 }
 
 .lan-menu .dropdown > ul > li > a, body > nav.scroll-menu:before, .title > p:before, .title > p:after, .quote .quote-author:before, .cnt-box-info .extra-field, .glide__bullets > button:hover, .glide__bullets > button.glide__bullet--active, .controls-right .glide__bullet, .media-box-reveal .extra-field, .media-box .caption h3:before, .bg-color, body main > section.bg-color, nav .dropdown > ul > li > a, body > header h2:after, body > header h2:before, .controls-out.arrows-left .glide__arrow:hover, .menu-cnt > ul > li > ul li > a, .album-box .caption h3:after, .menu-inner li:before, .cnt-box-blog-side .blog-date, .cnt-box-blog-top .blog-date, .section-home-alpins .glide__arrow, .menu-inner:not(.menu-inner-vertical) .dropdown ul > li > a, .step-item:before, .step-item > span, .shop-menu-cnt .cart-count {
