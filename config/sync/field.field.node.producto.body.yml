@@ -1,0 +1,24 @@
+uuid: 87ab7f27-cbae-47bf-8670-687e3d052341
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.producto
+  module:
+    - text
+id: node.producto.body
+field_name: body
+entity_type: node
+bundle: producto
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

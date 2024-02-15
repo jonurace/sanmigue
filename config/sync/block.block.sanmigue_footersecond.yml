@@ -1,0 +1,25 @@
+uuid: abd6f540-dc90-424e-9ad5-6d27ff4d79c7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:28bbe9ea-8f79-4251-ac0e-56d4b2bb67e0'
+  module:
+    - block_content
+  theme:
+    - sanmigue
+id: sanmigue_footersecond
+theme: sanmigue
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:28bbe9ea-8f79-4251-ac0e-56d4b2bb67e0'
+settings:
+  id: 'block_content:28bbe9ea-8f79-4251-ac0e-56d4b2bb67e0'
+  label: 'Footer second'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

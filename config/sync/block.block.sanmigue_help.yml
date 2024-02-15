@@ -1,4 +1,4 @@
-uuid: 8ac14d90-0d16-4359-8c0e-bd92012a2935
+uuid: db8284b7-2722-4621-89a4-df259ec554ea
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: sanmigue_help
 theme: sanmigue
-region: header
-weight: 0
+region: featured
+weight: -7
 provider: null
 plugin: help_block
 settings:

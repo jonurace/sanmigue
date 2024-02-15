@@ -1,4 +1,4 @@
-uuid: ce4fe03b-cc40-41d6-9e54-d7fde6870753
+uuid: c17ec464-bf13-40a5-8708-7fd2ea4bfcd5
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: sanmigue_site_branding
 theme: sanmigue
 region: header
-weight: 0
+weight: -2
 provider: null
 plugin: system_branding_block
 settings:
@@ -20,6 +20,6 @@ settings:
   label_display: '0'
   provider: system
   use_site_logo: true
-  use_site_name: true
+  use_site_name: false
   use_site_slogan: false
 visibility: {  }

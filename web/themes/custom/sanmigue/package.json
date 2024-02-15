@@ -1,10 +1,29 @@
 {
   "name": "sanmigue",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Custom theme for sanmigue",
+  "main": "gulpfile.js",
   "scripts": {
-    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'"
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
   "devDependencies": {
-    "livereload": "^0.9.3"
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-shell": "^0.8.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.60.0"
+  },
+  "author": "Jonatan urrego",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
   }
 }

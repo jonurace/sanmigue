@@ -1,6 +1,6 @@
-uuid: 6b09c0a3-de6b-4657-9405-73c453f2dd12
+uuid: 37e4d7c7-06b9-409e-893f-6777d19f4f0f
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - sanmigue
@@ -8,8 +8,8 @@ _core:
   default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
 id: sanmigue_primary_admin_actions
 theme: sanmigue
-region: header
-weight: -5
+region: secondary_menu
+weight: -8
 provider: null
 plugin: local_actions_block
 settings:

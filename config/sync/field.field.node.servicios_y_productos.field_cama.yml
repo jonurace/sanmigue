@@ -1,0 +1,19 @@
+uuid: b36e4ddd-6fa1-445b-b9b2-f39dfad76e5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cama
+    - node.type.servicios_y_productos
+id: node.servicios_y_productos.field_cama
+field_name: field_cama
+entity_type: node
+bundle: servicios_y_productos
+label: Cama
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

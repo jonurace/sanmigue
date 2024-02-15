@@ -1,0 +1,23 @@
+uuid: 4e79db79-ac33-4482-ab28-f73819bdaaa1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_precio_finde
+    - node.type.servicios_y_productos
+id: node.servicios_y_productos.field_precio_finde
+field_name: field_precio_finde
+entity_type: node
+bundle: servicios_y_productos
+label: 'Precio finde'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

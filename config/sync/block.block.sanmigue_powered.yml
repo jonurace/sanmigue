@@ -1,4 +1,4 @@
-uuid: fd3951ef-c4d5-41c4-94bf-80742a9bf6f5
+uuid: 54dfb651-13dd-45a9-ab6c-607169c23515
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: sanmigue_powered
 theme: sanmigue
-region: header
-weight: 0
+region: footer
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:

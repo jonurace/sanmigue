@@ -1,0 +1,43 @@
+uuid: 74079fdb-d862-4b2b-a2f4-2f7f76667930
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.servicios_y_productos.body
+    - field.field.node.servicios_y_productos.field_bano_privado
+    - field.field.node.servicios_y_productos.field_cama
+    - field.field.node.servicios_y_productos.field_imagenes
+    - field.field.node.servicios_y_productos.field_personas
+    - field.field.node.servicios_y_productos.field_precio_finde
+    - field.field.node.servicios_y_productos.field_precio_regular
+    - node.type.servicios_y_productos
+  module:
+    - text
+    - user
+id: node.servicios_y_productos.teaser
+targetEntityType: node
+bundle: servicios_y_productos
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_bano_privado: true
+  field_cama: true
+  field_imagenes: true
+  field_personas: true
+  field_precio_finde: true
+  field_precio_regular: true
+  langcode: true

@@ -1,4 +1,4 @@
-uuid: 2097b832-8fc0-4e55-babd-df6d1070d901
+uuid: e11296a9-e20c-4536-a486-fdfa8aec2961
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: sanmigue_main_menu
 theme: sanmigue
 region: primary_menu
-weight: 0
+weight: -8
 provider: null
 plugin: 'system_menu_block:main'
 settings:

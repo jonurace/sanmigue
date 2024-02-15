@@ -1,0 +1,24 @@
+uuid: 5a3d9c31-d1c5-454a-acd9-7313f74c401a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.servicios_y_productos
+  module:
+    - text
+id: node.servicios_y_productos.body
+field_name: body
+entity_type: node
+bundle: servicios_y_productos
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

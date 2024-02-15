@@ -1,4 +1,4 @@
-uuid: a0912e6a-5c0b-48f5-9c10-d117dad7afc9
+uuid: 0a5d6234-0e6a-4823-abfc-bd1adec91dd1
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: sanmigue_breadcrumbs
 theme: sanmigue
 region: breadcrumb
-weight: 0
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:

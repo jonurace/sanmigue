@@ -1,6 +1,6 @@
-uuid: 38fd05b3-ce20-4cf7-a8cd-0cb6e880db15
+uuid: feef3858-ff00-460f-a78f-4d30ee4b013e
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -11,7 +11,7 @@ _core:
 id: sanmigue_search_form_wide
 theme: sanmigue
 region: secondary_menu
-weight: -5
+weight: -4
 provider: null
 plugin: search_form_block
 settings:

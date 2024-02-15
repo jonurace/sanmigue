@@ -1,4 +1,4 @@
-uuid: 2b5fc0ca-b29b-41fa-9698-de05538ccf7d
+uuid: 66e6a9d6-88e9-477c-9d52-f45fb53e9655
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,8 @@ _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
 id: sanmigue_primary_local_tasks
 theme: sanmigue
-region: header
-weight: -4
+region: sidebar_first
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:

@@ -1,4 +1,4 @@
-uuid: b623915b-882d-436d-858c-0194ba62ac44
+uuid: 0c21e598-df52-4fc8-b52c-9ddde8791f71
 langcode: en
 status: true
 dependencies:
@@ -20,12 +20,13 @@ content:
     type: image
     label: hidden
     settings:
-      image_style: thumbnail
       image_link: content
+      image_style: thumbnail
       image_loading:
         attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
+  langcode: true
   member_for: true

@@ -1,6 +1,6 @@
-uuid: e6930a0f-075e-49eb-b4b0-a3f175f0377a
+uuid: 2544e1ee-8ef3-4d4f-b444-4942ac95d3fa
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -10,8 +10,8 @@ _core:
   default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
 id: sanmigue_search_form_narrow
 theme: sanmigue
-region: primary_menu
-weight: -4
+region: secondary_menu
+weight: -6
 provider: null
 plugin: search_form_block
 settings:

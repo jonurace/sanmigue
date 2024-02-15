@@ -1,6 +1,6 @@
-uuid: 06edcb49-3f7c-4889-b43b-ab24dfb38951
+uuid: 2bc0db76-66da-4364-9101-9cedec78f7f9
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -13,7 +13,7 @@ _core:
 id: sanmigue_account_menu
 theme: sanmigue
 region: secondary_menu
-weight: -4
+weight: -7
 provider: null
 plugin: 'system_menu_block:account'
 settings:

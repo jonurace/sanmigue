@@ -1,0 +1,11 @@
+uuid: 1920b521-4873-4e08-98cc-dea96bc73480
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.servicios_y_productos
+id: node.servicios_y_productos
+target_entity_type_id: node
+target_bundle: servicios_y_productos
+default_langcode: es
+language_alterable: false

@@ -1,0 +1,23 @@
+uuid: 01f1c150-9678-43be-9750-0cc13c8a8b5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_precio_regular
+    - node.type.servicios_y_productos
+id: node.servicios_y_productos.field_precio_regular
+field_name: field_precio_regular
+entity_type: node
+bundle: servicios_y_productos
+label: 'Precio regular'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

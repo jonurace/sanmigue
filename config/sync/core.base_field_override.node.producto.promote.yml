@@ -1,0 +1,22 @@
+uuid: 6f970386-86be-409c-85ab-083d7a6a3f28
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.producto
+id: node.producto.promote
+field_name: promote
+entity_type: node
+bundle: producto
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

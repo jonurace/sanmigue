@@ -1,4 +1,4 @@
-uuid: 4027c21a-3a5c-4644-9838-ffa96f633993
+uuid: a19b6dbe-842c-4e9b-8f91-6c451bdd929a
 langcode: en
 status: true
 dependencies:
@@ -60,6 +60,13 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   path:
     type: path

@@ -1,9 +1,10 @@
 name: sanmigue
 type: theme
-base theme: claro
+base theme: stark
 description: theme custom for san Migue glamping
 package: sanmi
 core_version_requirement: ^10
+version: '1.0'
 libraries:
   - sanmigue/global
 regions:
@@ -18,3 +19,6 @@ regions:
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
   footer: 'Footer'
+  footer_first: 'First footer'
+  footer_second: 'Second footer'
+  footer_third: 'Third footer'

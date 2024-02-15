@@ -1,0 +1,33 @@
+uuid: 79cd8aeb-8c73-481b-9127-2e1ece377785
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.producto.body
+    - field.field.node.producto.field_precio
+    - node.type.producto
+  module:
+    - text
+    - user
+id: node.producto.teaser
+targetEntityType: node
+bundle: producto
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_precio: true
+  langcode: true

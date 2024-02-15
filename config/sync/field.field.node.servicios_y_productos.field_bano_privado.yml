@@ -1,0 +1,19 @@
+uuid: cc340856-c857-4b82-baff-88711009aa40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bano_privado
+    - node.type.servicios_y_productos
+id: node.servicios_y_productos.field_bano_privado
+field_name: field_bano_privado
+entity_type: node
+bundle: servicios_y_productos
+label: 'Baño privado'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

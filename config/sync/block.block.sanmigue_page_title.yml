@@ -1,4 +1,4 @@
-uuid: 25b1ca62-f2e6-4f55-9f47-3dcbf263385b
+uuid: ffc41686-611e-4e34-a265-a4de1f8a2cbe
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,8 @@ _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
 id: sanmigue_page_title
 theme: sanmigue
-region: header
-weight: -5
+region: content
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
