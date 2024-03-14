@@ -1,6 +1,6 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
-langcode: en
+langcode: es
 uuid: a8bba6d7-9dc0-4bb2-9617-64854a651628
 name: 'San migue glamping'
 mail: info@sanmigue.co
@@ -11,4 +11,5 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: es
+mail_notification: ''

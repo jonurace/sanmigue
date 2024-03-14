@@ -1,0 +1,19 @@
+uuid: d5389fd0-0317-49dd-9aff-13e6395571b8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nombre
+    - node.type.reservas_y_ocupaciones
+id: node.reservas_y_ocupaciones.field_nombre
+field_name: field_nombre
+entity_type: node
+bundle: reservas_y_ocupaciones
+label: Nombre
+description: 'Ingrese el nombre de la persona que hace la reserva'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -5,7 +5,11 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.producto.body
+    - field.field.node.producto.field_categoria
     - field.field.node.producto.field_precio
+    - field.field.node.producto.field_precio_compra
+    - field.field.node.producto.field_presentacion
+    - field.field.node.producto.field_unidades_en_inventario
     - node.type.producto
   module:
     - text
@@ -29,5 +33,9 @@ content:
     weight: 100
     region: content
 hidden:
+  field_categoria: true
   field_precio: true
+  field_precio_compra: true
+  field_presentacion: true
+  field_unidades_en_inventario: true
   langcode: true

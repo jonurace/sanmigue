@@ -1,11 +1,11 @@
 uuid: bae172fc-3818-4f6e-b40e-22724bafdbdd
-langcode: en
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: eNX6lLCKDaY83nCMh20My---y03KbiFlv802DKCCpvg
 id: und
-label: 'Not specified'
+label: 'Sin especificar'
 direction: ltr
 weight: 2
 locked: true

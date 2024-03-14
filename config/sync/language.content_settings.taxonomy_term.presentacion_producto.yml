@@ -1,0 +1,11 @@
+uuid: 0de88365-0085-43de-ba89-15e5a15db8f5
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.presentacion_producto
+id: taxonomy_term.presentacion_producto
+target_entity_type_id: taxonomy_term
+target_bundle: presentacion_producto
+default_langcode: es
+language_alterable: false

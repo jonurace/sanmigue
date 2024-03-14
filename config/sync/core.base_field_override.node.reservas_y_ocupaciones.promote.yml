@@ -1,0 +1,22 @@
+uuid: 5647e7c6-4214-4c9e-8469-bd8404da2e8c
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.reservas_y_ocupaciones
+id: node.reservas_y_ocupaciones.promote
+field_name: promote
+entity_type: node
+bundle: reservas_y_ocupaciones
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

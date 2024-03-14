@@ -1,11 +1,11 @@
 uuid: bb15120c-61d0-4282-8463-9bdaa08b1e68
-langcode: en
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: MvQPTbQx0Vxwy0ordSHyixdZmLCMpvMdLD69dlwkrKc
 id: user
-label: User
+label: Usuario
 tags:
   canonical_url: '[user:url]'
   description: '[site:name]'

@@ -1,0 +1,8 @@
+uuid: 08672c00-e52a-421a-b2d8-d87d00d2c16f
+langcode: es
+status: true
+dependencies: {  }
+name: 'Presentacion producto'
+vid: presentacion_producto
+description: 'Manejo de las difrentes presentaciones'
+weight: 0

@@ -1,10 +1,10 @@
 uuid: be45d9a0-b62c-44f2-8c7e-75c0dad828b7
-langcode: en
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: JLMwODO0epnA_H-jFlH9ezVfa5YBJniRv3MmLqYNl_Q
-name: 'Plain text'
+name: 'Texto sin formato'
 format: plain_text
 weight: 10
 filters:

@@ -1,0 +1,20 @@
+uuid: 67c716aa-dbd8-4295-8fd9-aedba0c0d3f9
+langcode: es
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_fecha_salida
+field_name: field_fecha_salida
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

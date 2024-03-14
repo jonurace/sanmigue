@@ -1,0 +1,14 @@
+uuid: 94b56901-8b7a-4465-9b21-5484b9615a3c
+langcode: es
+status: true
+dependencies: {  }
+id: G-CFN8WG6CFR.65e8fe348988e8.02945039
+label: G-CFN8WG6CFR
+weight: 0
+tag_container_ids:
+  - G-CFN8WG6CFR
+advanced_settings:
+  consent_mode: true
+dimensions_metrics: {  }
+conditions: {  }
+events: {  }

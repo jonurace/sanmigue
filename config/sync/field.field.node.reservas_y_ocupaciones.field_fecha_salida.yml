@@ -1,0 +1,21 @@
+uuid: 2c3e0370-15dd-4c87-976d-057c6b7f415b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_salida
+    - node.type.reservas_y_ocupaciones
+  module:
+    - datetime
+id: node.reservas_y_ocupaciones.field_fecha_salida
+field_name: field_fecha_salida
+entity_type: node
+bundle: reservas_y_ocupaciones
+label: 'Fecha salida'
+description: 'Ingrese la fecha de salida'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

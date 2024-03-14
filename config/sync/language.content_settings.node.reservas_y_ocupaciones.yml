@@ -1,0 +1,11 @@
+uuid: 4fe1d6bf-425c-423b-843e-d272f2f95796
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.reservas_y_ocupaciones
+id: node.reservas_y_ocupaciones
+target_entity_type_id: node
+target_bundle: reservas_y_ocupaciones
+default_langcode: site_default
+language_alterable: false

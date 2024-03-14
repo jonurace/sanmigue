@@ -9,7 +9,7 @@ id: node.producto.field_precio
 field_name: field_precio
 entity_type: node
 bundle: producto
-label: Precio
+label: 'Precio de venta'
 description: 'Ingrese el precio unitario'
 required: true
 translatable: false

@@ -1,0 +1,23 @@
+uuid: de6164d8-b977-4a3b-a31e-8e7db8997f1e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_precio_compra
+    - node.type.producto
+id: node.producto.field_precio_compra
+field_name: field_precio_compra
+entity_type: node
+bundle: producto
+label: 'Precio compra'
+description: 'Precio al que se adquiere'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

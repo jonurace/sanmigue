@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: Producto
 type: producto
-description: 'Manejo de los diferentes productos'
+description: 'Manejo de los diferentes productos, control de inventarios.'
 help: ''
 new_revision: false
 preview_mode: 1

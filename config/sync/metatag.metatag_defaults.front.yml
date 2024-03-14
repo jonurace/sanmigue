@@ -1,11 +1,22 @@
 uuid: 55d87f56-bcfd-4d1b-ab76-aa0805fbaccc
-langcode: en
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
 id: front
-label: 'Front page'
+label: 'Página de Inicio'
 tags:
   canonical_url: '[site:url]'
+  description: 'Descubre San Migue Glamping, un refugio único en el corazón de la región del Guavio en Colombia. Sumérgete en la naturaleza y las tradiciones locales mientras disfrutas de alojamientos tipo glamping, cocina tradicional y actividades al aire libre. Relájate en nuestro jacuzzi al aire libre y explora las maravillas de Gachetá. ¡Reserva tu escapada hoy!'
+  keywords: 'Glamping, guavio, gacheta, turismo, san migue, camping, naturaleza, turismo ecologico, alojamiento campestre, domo'
+  og_country_name: Colombia
+  og_description: 'Descubre San Migue Glamping, un refugio único en el corazón de la región del Guavio en Colombia. Sumérgete en la naturaleza y las tradiciones locales mientras disfrutas de alojamientos tipo glamping, cocina tradicional y actividades al aire libre. Relájate en nuestro jacuzzi al aire libre y explora las maravillas de Gachetá. ¡Reserva tu escapada hoy!'
+  og_site_name: 'San migue glamping'
+  og_url: 'https://sanmigue.co'
+  robots: 'index, follow'
   shortlink: '[site:url]'
+  title: 'Inicio - San migue glamping Gachetá'
+  twitter_cards_description: 'Descubre San Migue Glamping, un refugio único en el corazón de la región del Guavio en Colombia. Sumérgete en la naturaleza y las tradiciones locales mientras disfrutas de alojamientos tipo glamping, cocina tradicional y actividades al aire libre. Relájate en nuestro jacuzzi al aire libre y explora las maravillas de Gachetá. ¡Reserva tu escapada hoy!'
+  twitter_cards_title: 'San migue glamping - Gachetá'
+  twitter_cards_type: summary

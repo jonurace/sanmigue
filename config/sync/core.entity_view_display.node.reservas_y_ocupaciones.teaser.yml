@@ -1,0 +1,37 @@
+uuid: 8054b7a8-684d-4fe2-bdde-f24c37bf0ebf
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.reservas_y_ocupaciones.body
+    - field.field.node.reservas_y_ocupaciones.field_fecha_inicial
+    - field.field.node.reservas_y_ocupaciones.field_fecha_salida
+    - field.field.node.reservas_y_ocupaciones.field_nombre
+    - node.type.reservas_y_ocupaciones
+  module:
+    - text
+    - user
+id: node.reservas_y_ocupaciones.teaser
+targetEntityType: node
+bundle: reservas_y_ocupaciones
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_fecha_inicial: true
+  field_fecha_salida: true
+  field_nombre: true
+  langcode: true

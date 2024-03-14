@@ -4,7 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.producto.body
+    - field.field.node.producto.field_categoria
     - field.field.node.producto.field_precio
+    - field.field.node.producto.field_precio_compra
+    - field.field.node.producto.field_presentacion
+    - field.field.node.producto.field_unidades_en_inventario
     - node.type.producto
   module:
     - path
@@ -30,9 +34,43 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_categoria:
+    type: entity_reference_autocomplete
+    weight: 126
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_precio:
     type: number
     weight: 122
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_precio_compra:
+    type: number
+    weight: 123
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_presentacion:
+    type: entity_reference_autocomplete
+    weight: 124
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_unidades_en_inventario:
+    type: number
+    weight: 125
     region: content
     settings:
       placeholder: ''

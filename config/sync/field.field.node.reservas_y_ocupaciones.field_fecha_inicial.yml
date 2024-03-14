@@ -1,0 +1,21 @@
+uuid: 8dd7fa0b-23f7-4285-bd8d-80437a1a6e4b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_inicial
+    - node.type.reservas_y_ocupaciones
+  module:
+    - datetime
+id: node.reservas_y_ocupaciones.field_fecha_inicial
+field_name: field_fecha_inicial
+entity_type: node
+bundle: reservas_y_ocupaciones
+label: 'Fecha inicial'
+description: 'Ingrese la fecha de ingreso'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
