@@ -1,0 +1,10 @@
+uuid: 8f9dde11-df3d-4e78-8be1-ce36eeadb58b
+langcode: es
+status: true
+dependencies: {  }
+id: testimonio
+label: Testimonio
+icon_uuid: null
+icon_default: null
+description: 'Agregar testimonios de clientes'
+behavior_plugins: {  }

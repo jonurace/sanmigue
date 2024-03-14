@@ -1,0 +1,29 @@
+uuid: 208da8fe-931e-4f8d-8d64-ce2b26be9efb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.testimonio.field_body
+    - field.field.paragraph.testimonio.field_nombre
+    - paragraphs.paragraphs_type.testimonio
+id: paragraph.testimonio.default
+targetEntityType: paragraph
+bundle: testimonio
+mode: default
+content:
+  field_body:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_nombre:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

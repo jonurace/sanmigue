@@ -1,0 +1,19 @@
+uuid: 637bcdd0-116e-4fc6-9962-89036a388d7e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nombre
+    - paragraphs.paragraphs_type.testimonio
+id: paragraph.testimonio.field_nombre
+field_name: field_nombre
+entity_type: paragraph
+bundle: testimonio
+label: Nombre
+description: 'Nombre de quien deja la opinión'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
