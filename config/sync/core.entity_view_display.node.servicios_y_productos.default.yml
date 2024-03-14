@@ -25,7 +25,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 2
     region: content
   field_bano_privado:
     type: string
@@ -33,7 +33,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 104
+    weight: 4
     region: content
   field_cama:
     type: string
@@ -41,18 +41,18 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 105
+    weight: 5
     region: content
   field_imagenes:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 102
+    weight: 1
     region: content
   field_personas:
     type: string
@@ -60,30 +60,30 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 103
+    weight: 3
     region: content
   field_precio_finde:
     type: number_integer
     label: above
     settings:
-      thousand_separator: ''
+      thousand_separator: ','
       prefix_suffix: true
     third_party_settings: {  }
-    weight: 106
+    weight: 6
     region: content
   field_precio_regular:
     type: number_integer
     label: above
     settings:
-      thousand_separator: ''
+      thousand_separator: ','
       prefix_suffix: true
     third_party_settings: {  }
-    weight: 107
+    weight: 7
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
   langcode: true

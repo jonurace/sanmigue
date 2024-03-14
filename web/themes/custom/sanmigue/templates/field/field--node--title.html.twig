@@ -28,9 +28,7 @@
 {% if not is_inline %}
   {% include "field.html.twig" %}
 {% else %}
-<span{{ attributes }}>
   {%- for item in items -%}
     {{ item.content }}
   {%- endfor -%}
-</span>
 {% endif %}

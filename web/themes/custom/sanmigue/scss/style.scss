@@ -52,3 +52,34 @@
     padding: 15px;
   }
 }
+body.path-node{
+  .menu-brand{
+    img{
+      &.scroll-hide {
+        display: none;
+      }
+      &.scroll-show{
+        display: block !important;
+      }
+    }
+  }
+  > .menu-classic{
+    &.menu-transparent{
+      &:not(.scroll-menu){
+        background: unset !important;
+        background-color: unset;
+        &:before{
+          background-color: #209ea4 !important;
+        }
+      }
+    }
+  }
+  > nav.menu-transparent:not(.scroll-menu):before {
+    display: block !important;
+  }
+}
+
+h4 + div{
+  margin-top: unset !important;
+  margin-bottom: 15px;
+}

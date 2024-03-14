@@ -2,14 +2,16 @@ uuid: 66e6a9d6-88e9-477c-9d52-f45fb53e9655
 langcode: en
 status: true
 dependencies:
+  module:
+    - block_visibility_groups
   theme:
     - sanmigue
 _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
 id: sanmigue_primary_local_tasks
 theme: sanmigue
-region: sidebar_first
-weight: -7
+region: content
+weight: -8
 provider: null
 plugin: local_tasks_block
 settings:
@@ -19,4 +21,8 @@ settings:
   provider: core
   primary: true
   secondary: false
-visibility: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

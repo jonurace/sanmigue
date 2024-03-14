@@ -68,27 +68,79 @@
  */
 #}
 <article{{ attributes }}>
+    <section class="section-base ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    {{ content.field_imagenes }}
+                    <hr class="space-sm" />
+                    <div class="icon-links icon-links-grid icon-social social-colors">
+                        <a data-social="share-facebook" class="facebook"><i class="icon-facebook"></i></a>
+                        <a data-social="share-twitter" class="twitter"><i class="icon-twitter"></i></a>
+                    </div>
 
-  {{ title_prefix }}
-  {% if label and not page %}
-    <h2{{ title_attributes }}>
-      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-    </h2>
-  {% endif %}
-  {{ title_suffix }}
+                    <hr class="space-sm" />
 
-  {% if display_submitted %}
-    <footer>
-      {{ author_picture }}
-      <div{{ author_attributes }}>
-        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-        {{ metadata }}
-      </div>
-    </footer>
-  {% endif %}
+                    {{ content.body }}
 
-  <div{{ content_attributes }}>
-    {{ content }}
-  </div>
+                </div>
+                <div class="col-lg-4">
+                    <h3>Acerca de</h3>
+                    <hr class="space-sm" />
+                    <div class="menu-inner menu-inner-vertical">
+                        <ul>
+                            <li>
+                                {{ content.field_cama }}
+                            </li>
+                            <li>
+                                {{ content.field_personas }}
+                            </li>
+                            <li>
+                                {{ content.field_precio_regular }}
+                            </li>
+                            <li>
+                                {{ content.field_precio_finde }}
+                            </li>
 
+                        </ul>
+                    </div>
+                    <hr class="space-sm" />
+                    <h3>Latest posts</h3>
+                    <hr class="space-sm" />
+                    <div class="menu-inner menu-inner-vertical menu-inner-image">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="http://via.placeholder.com/450x450" alt="" />
+                                    <span>February 12, 2020</span>
+                                    The last summer days
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="http://via.placeholder.com/450x450" alt="" />
+                                    <span>February 25, 2020</span>
+                                    Travels
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="http://via.placeholder.com/450x450" alt="" />
+                                    <span>April 19, 2020</span>
+                                    People and kids
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="http://via.placeholder.com/450x450" alt="" />
+                                    <span>April 20, 2020</span>
+                                    Animals and nature
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </article>

@@ -9,7 +9,7 @@ id: node.servicios_y_productos.field_precio_finde
 field_name: field_precio_finde
 entity_type: node
 bundle: servicios_y_productos
-label: 'Precio finde'
+label: 'Precio fin de semana'
 description: ''
 required: true
 translatable: false

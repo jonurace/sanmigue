@@ -13,7 +13,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.servicios_y_productos
   module:
-    - image
+    - focal_point
     - path
     - text
 id: node.servicios_y_productos.default
@@ -54,12 +54,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_imagenes:
-    type: image_image
+    type: image_focal_point
     weight: 122
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+      preview_link: true
+      offsets: '50,50'
     third_party_settings: {  }
   field_personas:
     type: string_textfield
